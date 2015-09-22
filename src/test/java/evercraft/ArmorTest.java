@@ -11,7 +11,7 @@ public class ArmorTest {
 
 	@Test
 	public void getArmorReturns10() {
-		assertThat("Default Armor should be 10", underTest.getArmorPoints(), is(10));
+		assertThat("Default Armor should be 10", underTest.getArmorStrength(), is(10));
 	}
 	
 	@Test

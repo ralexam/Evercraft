@@ -1,20 +1,20 @@
 package evercraft;
 
 public class Armor {
-	private Integer armorPoints;
+	private Integer armorStrength;
 	private Integer hitPoints;
 
 	public Armor() {
-		this.armorPoints = 10;
+		this.armorStrength = 10;
 		this.hitPoints = 5;
 	}
 
-	public Integer getArmorPoints() {
-		return armorPoints;
+	public Integer getArmorStrength() {
+		return armorStrength;
 	}
 	
-	public void setArmorPoints(Integer armor) {
-		this.armorPoints = armor;
+	public void setArmorStrength(Integer armorStrength) {
+		this.armorStrength = armorStrength;
 	}
 	
 	public Integer getHitPoints() {
