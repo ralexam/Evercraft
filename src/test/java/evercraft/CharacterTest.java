@@ -1,19 +1,24 @@
 package evercraft;
 
 import static org.hamcrest.Matchers.is;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertThat;
+import static org.mockito.MockitoAnnotations.initMocks;
 
-import org.junit.Assert;
 import org.junit.Before;
-import org.junit.Ignore;
 import org.junit.Test;
+import org.mockito.Mock;
 
 public class CharacterTest {
-	Character underTest;
+	private Character underTest;
+	
+//	@Mock
+//	private Armor armor;
 	
 	@Before
 	public void setup() {
+//		initMocks(this);
 		underTest = new Character();
+//		underTest.setArmor(armor);
 	}
 
 	@Test
@@ -79,12 +84,10 @@ public class CharacterTest {
 		assertThat("Good alignment should be 0. ", underTest.getGoodAlignment(), is(0));
 	}
 	
-	@Test @Ignore
+	@Test
 	public void limitGoodAlignmentToAnUpperBoundOf100ifInputIsMoreThan100(){
-//		Integer goodAlignment = 5000;
-//		underTest.setGoodAlignment(goodAlignment);
-//		assertThat("Evil alignment should be 100. ", underTest.getGoodAlignment(), is(100));
+		Integer goodAlignment = 5000;
+		underTest.setGoodAlignment(goodAlignment);
+		assertThat("Good alignment should be 100. ", underTest.getGoodAlignment(), is(100));
 	}
-	
-
 }

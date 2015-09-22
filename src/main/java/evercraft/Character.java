@@ -6,6 +6,7 @@ public class Character {
 	private Integer evilAlignment;
 	private Integer neutralAlignment;
 	private Integer goodAlignment;
+	private Armor armor;
 	
 	private boolean isGreaterThanUpperBound(Integer alignment) {
 		return alignment > 100;
@@ -29,7 +30,13 @@ public class Character {
 	}
 	
 	public void setGoodAlignment(Integer goodAlignment) {
-		this.goodAlignment = goodAlignment;
+		if (isLessThanLowerBound(goodAlignment)) {
+			this.goodAlignment = 0;
+		} else if (isGreaterThanUpperBound(goodAlignment)) {
+			this.goodAlignment = 100;
+		} else {
+			this.goodAlignment = goodAlignment;
+		}
 	}
 	
 	public Integer getEvilAlignment() {
@@ -58,6 +65,14 @@ public class Character {
 		} else {
 			this.neutralAlignment = neutralAlignment;
 		}
+	}
+	
+	public Armor getArmor() {
+		return armor;
+	}
+
+	public void setArmor(Armor armor) {
+		this.armor = armor;
 	}
 
 }
