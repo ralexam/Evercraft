@@ -6,7 +6,6 @@ public class Armor {
 
 	public Armor() {
 		this.armorStrength = 10;
-		this.hitPoints = 5;
 	}
 
 	public Integer getArmorStrength() {
@@ -16,12 +15,5 @@ public class Armor {
 	public void setArmorStrength(Integer armorStrength) {
 		this.armorStrength = armorStrength;
 	}
-	
-	public Integer getHitPoints() {
-		return hitPoints;
-	}
-	
-	public void setHitPoints(Integer hitPoints) {
-		this.hitPoints = hitPoints;
-	}
+
 }
