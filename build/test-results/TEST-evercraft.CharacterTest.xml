@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="evercraft.CharacterTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2015-09-29T20:43:44" hostname="L-OFCQ0P7FD58-M" time="0.0">
+  <properties/>
+  <testcase name="getHitPointsReturns5" classname="evercraft.CharacterTest" time="0.0"/>
+  <testcase name="setNameToLunaSoThatGetNameReturnsLuna" classname="evercraft.CharacterTest" time="0.0"/>
+  <testcase name="isAttackedShouldDecreaseHitPointsByOne" classname="evercraft.CharacterTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

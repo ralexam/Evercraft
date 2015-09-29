@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="evercraft.AlignmentTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2015-09-29T20:43:44" hostname="L-OFCQ0P7FD58-M" time="0.003">
+  <properties/>
+  <testcase name="limitGoodAlignmentToAnUpperBoundOf100ifInputIsMoreThan100" classname="evercraft.AlignmentTest" time="0.0"/>
+  <testcase name="limitGoodAlignmentToALowerBoundOf0ifInputIsLessThan0" classname="evercraft.AlignmentTest" time="0.0"/>
+  <testcase name="limitNeutralAlignmentToALowerBoundOf0ifInputIsLessThan0" classname="evercraft.AlignmentTest" time="0.0"/>
+  <testcase name="setNeutralAlignmentTo45SoThatGetNeutralAlignmentReturns45" classname="evercraft.AlignmentTest" time="0.0"/>
+  <testcase name="setGoodAlignmentTo45SoThatGetgoodAlignmentReturns45" classname="evercraft.AlignmentTest" time="0.0"/>
+  <testcase name="setEvilAlignmentTo100SoThatGetEvilAlignmentReturns100" classname="evercraft.AlignmentTest" time="0.0"/>
+  <testcase name="limitEvilAlignmentToALowerBoundOf0ifInputIsLessThan0" classname="evercraft.AlignmentTest" time="0.0"/>
+  <testcase name="limitNeutralAlignmentToAnUpperBoundOf100ifInputIsMoreThan100" classname="evercraft.AlignmentTest" time="0.0"/>
+  <testcase name="limitEvilAlignmentToAnUpperBoundOf100ifInputIsMoreThan100" classname="evercraft.AlignmentTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

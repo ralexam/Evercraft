@@ -53,5 +53,20 @@ public class BattleTest {
 		
 		assertThat("Victim's HP should decrease by 2. ", victim.getHitPoints(), is(3));
 	}
+	
+	@Test
+	public void fightShouldKillVictimWhenHPIs0() {
+		victim.setHitPoints(1);
+		when(mockedDice.roll()).thenReturn(11);
+		
+		underTest.fight(attacker, victim, mockedDice);
+		
+		assertThat("Victim should die", victim.isDead(), is(true));
+	}
+	
+	@Test
+	public void characterShouldBeAliveAndReadyToFightUponInception(){
+		Assert.assertThat("Victim should be alive",  victim.isDead(), is(false));
+	}
 
 }

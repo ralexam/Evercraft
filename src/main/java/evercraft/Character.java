@@ -5,14 +5,18 @@ public class Character {
 	private String name;
 	private Armor armor;
 	private Alignment alignment;
-	private int hP;
+	private int hitPoints;
+	private boolean isDead;
 	
 	public Character() {
-		hP = 5;
+		hitPoints = 5;
 	}
 	
 	public void isAttacked() {
-		hP = hP - 1;
+		hitPoints = hitPoints - 1;
+		if (hitPoints <= 0 ){
+			isDead = true;
+		}
 	}
 	
 	public Alignment getAlignment() {
@@ -41,7 +45,15 @@ public class Character {
 	}
 
 	public int getHitPoints() {
-		return hP;
+		return hitPoints;
+	}
+
+	public void setHitPoints(int hitPoints) {
+		this.hitPoints = hitPoints;
+	}
+
+	public boolean isDead() {
+		return isDead;
 	}
 
 

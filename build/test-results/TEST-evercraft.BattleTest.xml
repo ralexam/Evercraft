@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="evercraft.BattleTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2015-09-29T20:43:44" hostname="L-OFCQ0P7FD58-M" time="0.087">
+  <properties/>
+  <testcase name="characterShouldBeAliveAndReadyToFightUponInception" classname="evercraft.BattleTest" time="0.076"/>
+  <testcase name="fightShouldKillVictimWhenHPIs0" classname="evercraft.BattleTest" time="0.009"/>
+  <testcase name="fightShouldNotDecreaseVitcimsHPIfDiceRolls1" classname="evercraft.BattleTest" time="0.0"/>
+  <testcase name="fightShouldDecreaseVitcimsHPBy2IfDiceRolls20" classname="evercraft.BattleTest" time="0.0"/>
+  <testcase name="fightShouldDecreaseVitcimsHPIfDiceRolls10" classname="evercraft.BattleTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="evercraft.DiceTest" tests="1" skipped="1" failures="0" errors="0" timestamp="2015-09-29T20:43:44" hostname="L-OFCQ0P7FD58-M" time="0.0">
+  <properties/>
+  <testcase name="test" classname="evercraft.DiceTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
